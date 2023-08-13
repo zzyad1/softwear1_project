@@ -1,0 +1,91 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("blo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    height: 80vh;
+    width: 60vh;
+    max-width: 80vh;
+    background-color:rgba(125, 233, 252, 0.7);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+img {
+    padding: 1em;
+    height: 150px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+form input {
+    display: flex;
+    margin: 0.5em;
+}
+
+form input label {
+    text-align: center;
+    width: 50%;
+    margin-right: 30px;
+}
+
+form input input {
+    width: 50%;
+}
+
+
+header {
+    display: flex;
+    justify-content: center;
+    
+    align-items: center;
+    padding: 1em;
+    border-bottom: 2px solid black;
+}
+
+dl {
+    display: inline-flex;
+}
+
+.link {
+    padding: 1em;
+}
+
+header a {
+    text-decoration: none;
+    color: black
+}
+footer a {
+    text-decoration: none;
+    color: red 
+}
+
+img {
+    width: 10vw;
+    max-height: 100px;
+}
+
+
+h1 {
+    color: black;
+}
+h2 {
+    color: red;
+}
+
+p {
+    color: black;
+}
